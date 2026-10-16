@@ -1,0 +1,16 @@
+group,variable,n,mean,sd,skew,kurtosis
+All,Need for chaos,1314,1.47,0.6,2.03,5.56
+All,Misogyny,1315,2.2,0.89,0.55,-0.33
+All,Authoritarianism,1315,3.42,1.02,-0.45,-0.54
+All,Destabilizing content sharing,1315,1.91,0.98,1.04,0.48
+All,Willingness to engage in political violence,1315,1.45,0.86,2.16,4.5
+US,Need for chaos,693,1.53,0.64,1.89,4.5
+US,Misogyny,694,2.26,0.93,0.52,-0.42
+US,Authoritarianism,694,3.33,1.09,-0.36,-0.76
+US,Destabilizing content sharing,694,1.85,1.02,1.25,0.92
+US,Willingness to engage in political violence,694,1.39,0.82,2.39,5.6
+Brazil,Need for chaos,621,1.4,0.54,2.19,7.04
+Brazil,Misogyny,621,2.13,0.84,0.54,-0.32
+Brazil,Authoritarianism,621,3.53,0.93,-0.49,-0.33
+Brazil,Destabilizing content sharing,621,1.99,0.92,0.78,-0.05
+Brazil,Willingness to engage in political violence,621,1.52,0.9,1.95,3.57

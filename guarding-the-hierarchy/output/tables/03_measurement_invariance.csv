@@ -1,0 +1,13 @@
+construct,level,chisq.scaled,df.scaled,cfi.robust,tli.robust,rmsea.robust,srmr,delta_cfi
+Need for chaos,configural,187.874,28,0.889,0.834,0.143,0.055,NA
+Need for chaos,metric,187.783,34,0.89,0.864,0.13,0.062,0.0010000000000000009
+Need for chaos,scalar,224.297,40,0.88,0.874,0.125,0.066,-0.010000000000000009
+Misogyny,configural,476.409,70,0.915,0.891,0.123,0.046,NA
+Misogyny,metric,522.754,79,0.91,0.897,0.119,0.059,-0.0050000000000000044
+Misogyny,scalar,676.125,88,0.886,0.883,0.127,0.072,-0.02400000000000002
+Authoritarianism,configural,19.839,4,0.991,0.973,0.086,0.016,NA
+Authoritarianism,metric,21.693,7,0.992,0.986,0.061,0.019,0.0010000000000000009
+Authoritarianism,scalar,114.677,10,0.946,0.936,0.134,0.059,-0.04600000000000004
+Destabilizing content sharing,configural,9.304,4,0.995,0.984,0.072,0.013,NA
+Destabilizing content sharing,metric,14.015,7,0.994,0.99,0.057,0.025,-0.0010000000000000009
+Destabilizing content sharing,scalar,43.482,10,0.976,0.971,0.097,0.045,-0.018000000000000016

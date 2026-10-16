@@ -1,0 +1,9 @@
+construct,country,chisq.scaled,df.scaled,cfi.robust,tli.robust,rmsea.robust,srmr
+Need for chaos,US,123.914,14,0.883,0.825,0.154,0.057
+Need for chaos,Brazil,70.13,14,0.897,0.846,0.131,0.054
+Misogyny,US,235.695,35,0.927,0.906,0.121,0.041
+Misogyny,Brazil,240.899,35,0.897,0.868,0.125,0.052
+Authoritarianism,US,8.132,2,0.995,0.984,0.073,0.013
+Authoritarianism,Brazil,11.551,2,0.985,0.956,0.1,0.02
+Destabilizing content sharing,US,4.265,2,0.996,0.988,0.07,0.011
+Destabilizing content sharing,Brazil,5.204,2,0.993,0.979,0.073,0.015
