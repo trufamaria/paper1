@@ -59,3 +59,15 @@ message("Manuscript: no residuals chi2(538) = 1784.53, CFI = .901 | configural c
         "Brazil chi2(264) = 621.19 | U.S. chi2(264) = 702.72 | metric chi2(549) = 1360.42, CFI = .936")
 message("\nStandardized loadings (Table A2):"); print(as.data.frame(tabA2), row.names = FALSE)
 message("Loading range: ", paste(grp, sapply(tabA2[, grp], function(x) paste(range(x), collapse = " to ")), collapse = " | "))
+
+# ---- Residual correlations, by country (configural model fitted in each country) --
+rc <- do.call(rbind, lapply(names(f_by), function(g) {
+  ss <- lavaan::standardizedSolution(f_by[[g]])
+  ss <- ss[ss$op == "~~" & ss$lhs != ss$rhs & ss$lhs %in% cols & ss$rhs %in% cols, ]
+  data.frame(country = g, pair = paste(ss$lhs, "~~", ss$rhs),
+             r = round(ss$est.std, 3), se = round(ss$se, 3),
+             z = round(ss$z, 2), p = round(ss$pvalue, 4))
+}))
+readr::write_csv(rc, file.path(cfg$tables_dir, "03_residual_correlations.csv"))
+message("\nResidual correlations (standardized), by country:"); print(rc, row.names = FALSE)
+message("All significant at .05 in both countries: ", all(rc$p < .05))
